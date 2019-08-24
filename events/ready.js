@@ -7,9 +7,9 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "g!yardım - Otorol Güncellendi🔥",
-        "g!yardım - Küfür Engel✨",
-        "g!yardım - Reklam Engel⭐️"  
+        "k!yardım - Otorol Güncellendi🔥",
+        "k!yardım - Küfür Engel✨",
+        "k!yardım - Reklam Engel⭐️"  
     ];
 
     setInterval(function() {
