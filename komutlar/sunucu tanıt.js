@@ -19,9 +19,9 @@ exports.run = async (client, message, args) => {
   {
         const embed = new Discord.RichEmbed()
   .setTitle('BAŞARILI')
-  .addField('Sunucu burada tanıtıldı! (https://discord.gg/Cg48Za9).')
+  .addField('Sunucu burada tanıtıldı! (https://discord.gg/stnEQeN).')
   .addField('12 saat Sonra sunucunuzu Tekrardan Tanıtabilirsiniz.')
-  .addField('Sunucunu tanıtabilmek için beni ekle! https://goo.gl/2WhBSB')
+  .addField('Sunucunu tanıtabilmek için beni ekle! https://goo.gl/')
   .setColor('GREEN')
  message.channel.sendEmbed(embed);
     message.channel.createInvite({maxAge: 0}).then((invite) => {
